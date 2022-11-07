@@ -3,7 +3,6 @@ body {
 }
 
 * {
-	border: 1px dashed red;
 	min-height: 10px;
 }
 
@@ -12,11 +11,12 @@ body {
 	width: 400px;
 	height: 300px;
 	margin: auto;
+	padding: 2em;
+	padding-bottom: 0;
 }
 
 .postcard-header {
 	display: flex;
-	/* align-items: center; */
 }
 
 img {
